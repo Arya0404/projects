@@ -1,0 +1,25 @@
+body {
+    background-color: #121212; /* deeper dark */
+    color: #e0e0e0; /* light text */
+}
+
+h1, h4 {
+    color: #ffffff;
+}
+
+.stButton>button {
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #16a085;
+}
+
+div[data-testid="stSidebar"] {
+    background-color: #1f1f1f;
+}
