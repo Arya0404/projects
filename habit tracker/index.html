@@ -8,34 +8,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="header">
-    <h1>📅 Classic Habit Tracker</h1>
-    <p class="subtitle">Track your daily habits, maintain streaks, and build discipline.</p>
-  </header>
-
-  <main class="container">
-    <section class="form-section">
-      <form id="habit-form">
-        <input type="text" id="habit-name" placeholder="e.g. Drink Water" required />
-        <input type="time" id="reminder-time" required />
-        <button type="submit">➕ Add Habit</button>
-        <button id="clear-all-btn">Clear All</button>
-
-
-      </form>
-    </section>
-
-    <section class="habits-section">
-      <h2>Your Habits</h2>
-      <ul id="habit-list" class="habit-list"></ul>
-    </section>
-
-    <section class="history-section">
-      <h2>📊 History</h2>
-      <button id="clear-all-btn">Clear All</button>
-      <div id="habit-history" class="habit-history">No activity yet.</div>
-    </section>
-  </main>
+  <div class="wrapper">
+    <header class="header">
+      <h1>📅 Classic Habit Tracker</h1>
+      <p class="subtitle">Track your daily habits, maintain streaks, and build discipline.</p>
+    </header>
+  
+    <main class="container">
+      <section class="form-section">
+        <form id="habit-form">
+          <input type="text" id="habit-name" placeholder="e.g. Drink Water" required />
+          <input type="time" id="reminder-time" required />
+          <button type="submit">➕ Add Habit</button>
+          <button id="clear-all-btn">Clear All</button>
+  
+  
+        </form>
+      </section>
+  
+      <section class="habits-section">
+        <h2>Your Habits</h2>
+        <ul id="habit-list" class="habit-list"></ul>
+      </section>
+  
+      <section class="history-section">
+        <h2>📊 History</h2>
+        <div id="habit-history" class="habit-history">No activity yet.</div>
+      </section>
+    </main>
+    
+  </div>
 
   <footer class="footer">
     <p>Made with ❤️ to help you build better habits. | © 2025 Habit Tracker</p>
